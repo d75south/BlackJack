@@ -50,7 +50,7 @@ public class CardStack
 			CardStack.put(counter, 10);
 			counter++;
 			CardStack.put(counter,"Ace of "+ suite);
-			CardStack.put(counter, 0);
+			CardStack.put(counter, 11);
 			counter++;				
 	}
 	
