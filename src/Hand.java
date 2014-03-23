@@ -78,24 +78,17 @@ Scanner scan=new Scanner(System.in);
 		return handArray.toString();
 	}
 	
-	public String getHandName()
+	public List<String> getHandName()
 	{
-		return cardNameArray.toString();
+		return cardNameArray;
 	}
-	
-	public String getDealerHandName()	//this just shows the first card in an array for testing
-	{
-		return cardNameArray.toString();
 		
-	}
-	
 	
 	public String getDealer()	//this just shows the first card in an array for testing
 	{
 		return handArray.get(0).toString();
 		
 	}
-	
 	
 	public String getPlayerName()
 	{
